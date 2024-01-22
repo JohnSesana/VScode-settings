@@ -1,4 +1,3 @@
-
 {
     "workbench.startupEditor": "newUntitledFile",
     "editor.fontSize": 14,
@@ -53,7 +52,6 @@
     },
     "editor.semanticHighlighting.enabled": false,
     "breadcrumbs.enabled": false,
-    "workbench.productIconTheme": "fluent-icons",
     "editor.fontFamily": "JetBrains Mono",
     "editor.tabSize": 2,
     "security.workspace.trust.untrustedFiles": "newWindow",
