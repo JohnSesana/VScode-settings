@@ -21,16 +21,11 @@
       "vitest.config.e2e.ts": "vite",
       ".env.example": "gear"
     },
-    "tailwindCSS.experimental.classRegex": [
-      ["tv\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
-    ],
     "editor.parameterHints.enabled": false,
     "editor.renderLineHighlight": "gutter",
-    "cSpell.language": "en,pt",
     "typescript.updateImportsOnFileMove.enabled": "always",
     "editor.suggestSelection": "first",
     "explorer.confirmDelete": false,
-    "gitlens.codeLens.recentChange.enabled": false,
     "terminal.integrated.showExitAlert": false,
     "[prisma]": {
       "editor.formatOnSave": true
@@ -47,28 +42,8 @@
     "emmet.syntaxProfiles": {
       "javascript": "jsx"
     },
-    "cSpell.enableFiletypes": [
-      "!asciidoc",
-      "!c",
-      "!cpp",
-      "!csharp",
-      "!go",
-      "!handlebars",
-      "!haskell",
-      "!jade",
-      "!java",
-      "!latex",
-      "!php",
-      "!pug",
-      "!python",
-      "!restructuredtext",
-      "!rust",
-      "!scala",
-      "!scss"
-    ],
     "editor.acceptSuggestionOnCommitCharacter": false,
     "explorer.compactFolders": false,
-    "git.enableSmartCommit": true,
     "editor.accessibilitySupport": "off",
     "explorer.confirmDragAndDrop": false,
     "terminal.integrated.fontSize": 14,
@@ -76,16 +51,10 @@
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": "explicit"
     },
-    "eslint.validate": [
-      "javascript",
-      "javascriptreact",
-      "graphql"
-    ],
     "editor.semanticHighlighting.enabled": false,
     "breadcrumbs.enabled": false,
     "workbench.productIconTheme": "fluent-icons",
     "editor.fontFamily": "JetBrains Mono",
-    "gitlens.codeLens.authors.enabled": false,
     "editor.tabSize": 2,
     "security.workspace.trust.untrustedFiles": "newWindow",
     "files.exclude": {
@@ -95,7 +64,6 @@
       "**\/.svn": true,
       "**\/.git": true,
       ".vscode": true
-      // "node_modules": true
     },
     "workbench.iconTheme": "symbols",
     "update.mode": "start",
@@ -108,12 +76,10 @@
       "editor.defaultFormatter": "vscode.json-language-features"
     },
     "window.commandCenter": false,
-    "git.openRepositoryInParentFolders": "always",
     "symbols.hidesExplorerArrows": false,
     "[javascript]": {
       "editor.defaultFormatter": "vscode.typescript-language-features"
     },
-    "console-ninja.featureSet": "Community",
     "workbench.editor.empty.hint": "hidden",
     "update.showReleaseNotes": false,
     "security.promptForLocalFileProtocolHandling": false,
@@ -127,7 +93,6 @@
     },
     "editor.hideCursorInOverviewRuler": true,
     "editor.minimap.enabled": false,
-    //"window.titleBarStyle": "native",
     "apc.electron": {
       "titleBarStyle": "hiddenInset",
       "trafficLightPosition": {
@@ -149,7 +114,6 @@
       ".nosidebar .inline-tabs-placeholder": "width: 75px",
       ".pane-header": "padding: 0 8px",
       ".pane-body": "padding: 8px",
-      //".split-view-view:first-child .pane-header": "display: none !important;",
       ".monaco-list-row": "border-radius: 4px;",
       ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
     },
