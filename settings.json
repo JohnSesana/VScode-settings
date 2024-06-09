@@ -15,7 +15,6 @@
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
 
-
   // Disable breadcrumbs in the editor
   "breadcrumbs.enabled": false,
 
@@ -24,16 +23,6 @@
 
   // Configure workspace trust for untrusted files
   "security.workspace.trust.untrustedFiles": "newWindow",
-
-  // // Exclude specific files and folders from the workspace
-  // "files.exclude": {
-  //     "**\/CVS": true,
-  //     "**\/.DS_Store": true,
-  //     "**\/.hg": true,
-  //     "**\/.svn": true,
-  //     "**\/.git": true,
-  //     ".vscode": true
-  // },
 
   // Set the icon theme for the workspace
   "workbench.iconTheme": "symbols",
@@ -44,59 +33,40 @@
   // Disable command center window
   "window.commandCenter": false,
 
-  // // Hide Explorer arrows
-  // "symbols.hidesExplorerArrows": false,
-
   // Set editor and terminal font settings for appearance customization
   // (These settings are specific to a theme or custom appearance)
   "editor.fontFamily": "JetBrains Mono",
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
-  
-  // Customize activity bar position and appearance
-  "workbench.activityBar.location": "top",
-  // "apc.activityBar": {
-  //     "position": "bottom",
-  //     "hideSettings": true,
-  //     "size": 48,
-  //     "itemMargin": 8,
-  //     "itemSize": 32
-  //   },
 
   // Customize editor and appearance settings
   "editor.hideCursorInOverviewRuler": true,
   "editor.minimap.enabled": true,
   "apc.electron": {
-      "titleBarStyle": "hiddenInset",
-      "trafficLightPosition": {
-          "x": 11,
-          "y": 10
-      },
-      "frame": false
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 11,
+      "y": 10
+    },
+    "frame": false
   },
   "apc.header": {
-      "height": 36
+    "height": 36
   },
   "apc.listRow": {
-      "height": 24
+    "height": 24
   },
   "apc.font.family": "Inter",
   "apc.stylesheet": {
-      ".title-label > h2": "display: none",
-      ".editor-actions": "display: none",
-      ".nosidebar .inline-tabs-placeholder": "width: 75px",
-      ".pane-header": "padding: 0 8px",
-      ".pane-body": "padding: 8px",
-      ".monaco-list-row": "border-radius: 4px;",
-      ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
+    ".pane-body": "padding: 8px"
   },
 
   // Customize file sorting and nesting behavior in Explorer
   "explorer.sortOrder": "foldersNestsFiles",
   "explorer.fileNesting.patterns": {
-      "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
-      "tailwind.config.js": "tailwind.config*, postcss.config*",
-      ".env.local": ".env*",
-      ".env": ".env*"
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
+    "tailwind.config.js": "tailwind.config*, postcss.config*",
+    ".env.local": ".env*",
+    ".env": ".env*"
   },
   "explorer.fileNesting.enabled": true,
 
@@ -111,9 +81,13 @@
 
   // Set default formatter for SQL files
   "[sql]": {
-      "editor.defaultFormatter": "cymonk.sql-formatter"
-},
-"symbols.hidesExplorerArrows": false,
-"window.density.editorTabHeight": "compact",
-"workbench.layoutControl.enabled": false
+    "editor.defaultFormatter": "cymonk.sql-formatter"
+  },
+  "symbols.hidesExplorerArrows": false,
+  "window.density.editorTabHeight": "compact",
+  "workbench.layoutControl.enabled": false,
+  "git.autofetch": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange"
 }

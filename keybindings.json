@@ -1,0 +1,20 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "alt+oem_5",
+    "command": "editor.action.formatDocument.multiple"
+  },
+  {
+    "key": "shift+enter",
+    "command": "python.execInTerminal-icon"
+  },
+  {
+    "key": "shift+enter",
+    "command": "-python.execSelectionInTerminal",
+    "when": "editorTextFocus && !findInputFocussed && !jupyter.ownsSelection && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
+  },
+  {
+    "key": "alt+p p",
+    "command": "git.push"
+  }
+]
