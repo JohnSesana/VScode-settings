@@ -33,61 +33,17 @@
   // Disable command center window
   "window.commandCenter": false,
 
-  // Set editor and terminal font settings for appearance customization
-  // (These settings are specific to a theme or custom appearance)
-  "editor.fontFamily": "JetBrains Mono",
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
-
-  // Customize editor and appearance settings
-  "editor.hideCursorInOverviewRuler": true,
-  "editor.minimap.enabled": true,
-  "apc.electron": {
-    "titleBarStyle": "hiddenInset",
-    "trafficLightPosition": {
-      "x": 11,
-      "y": 10
-    },
-    "frame": false
-  },
-  "apc.header": {
-    "height": 36
-  },
-  "apc.listRow": {
-    "height": 24
-  },
-  "apc.font.family": "Inter",
-  "apc.stylesheet": {
-    ".pane-body": "padding: 8px"
-  },
-
-  // Customize file sorting and nesting behavior in Explorer
-  "explorer.sortOrder": "foldersNestsFiles",
-  "explorer.fileNesting.patterns": {
-    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
-    "tailwind.config.js": "tailwind.config*, postcss.config*",
-    ".env.local": ".env*",
-    ".env": ".env*"
-  },
-  "explorer.fileNesting.enabled": true,
-
-  // Show status bar in the workspace
-  "workbench.statusBar.visible": true,
-
   // Set the color theme for the workspace
   "workbench.colorTheme": "Min Darkest",
 
   // Set editor font size
   "editor.fontSize": 16,
 
-  // Set default formatter for SQL files
-  "[sql]": {
-    "editor.defaultFormatter": "cymonk.sql-formatter"
+  "editor.unicodeHighlight.allowedCharacters": {
+    "é": true
   },
-  "symbols.hidesExplorerArrows": false,
-  "window.density.editorTabHeight": "compact",
-  "workbench.layoutControl.enabled": false,
-  "git.autofetch": true,
+  "editor.minimap.enabled": false,
+  "files.autoSave": "onFocusChange",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "files.autoSave": "onFocusChange"
+  "symbols.hidesExplorerArrows": false,
 }
